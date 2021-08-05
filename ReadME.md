@@ -13,6 +13,13 @@ Open [http://localhost:3004](http://localhost:3004) to view it in the browser.
 * npm install cors
 * npm install morgan
 
+**dotenv File:**
+* **DB_URL** - connection url to MongoDB
+* **HOSTNAME** - localhost
+* **PORT** - 3004
+
+You can change the three parameters in this file 
+
 ## **PullRequests Module**
 
 The operation of the server is divided into different modules, where in our case we have one module "prs" that will be a prefix to all the routers that currently exist on the server.
