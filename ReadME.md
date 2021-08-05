@@ -44,7 +44,7 @@ In this collection we have documents with the following fields:
 * Creation_date
 
 ## **Routes**
-* **PSOT** - **"/prs/newpr"**: add new Pull Request to server.
+* **POST** - **"/prs/newpr"**: add new Pull Request to server.
 * **GET** - **"/prs/all?status={string}&labels={string}&sorted={string}&order={int}"**: get all the Pull Requests in the server by Filters
 * **GET** - **"/prs/allStatus"**: get all the unique Status in the server
 * **GET** - **"/prs/allLabels"**: get all the unique Labels in the server
